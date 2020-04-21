@@ -19,6 +19,26 @@
       "mainClass": "com.chisimdi.microservices.currencyexchangeservice.DemoApplication",
       "projectName": "currency-exchange-service",
       "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-DemoApplication<limits-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.chisimdi.microservices.limitsservice.DemoApplication",
+      "projectName": "limits-service",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-DemoApplication<spring-cloud-config-server>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.chisimdi.microservices.springcloudconfigserver.DemoApplication",
+      "projectName": "spring-cloud-config-server",
+      "args": ""
     }
   ]
 }
